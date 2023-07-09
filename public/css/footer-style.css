@@ -1,0 +1,11 @@
+footer {
+    background-color: rgb(228, 189, 18);
+    color: black;
+    text-align: center;
+    font-size: large;
+  font-weight: 600;
+}
+footer>p {
+    margin-top: 15px;
+    font-family: 'Times New Roman';
+}

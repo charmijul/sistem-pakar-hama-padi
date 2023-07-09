@@ -1,0 +1,61 @@
+header {
+    display: flex;
+    background-color: rgb(228, 189, 18);
+    justify-content: center;
+}
+.navbar {
+    width: 85%;
+    color: black;
+    text-align: center;
+}
+
+.navbar a {
+    list-style: none;
+    font-family: "Times New Roman";
+    font-size: large;
+    font-weight: 500;
+    color: black;
+}
+
+.navbar-nav .nav-item a:hover {
+    list-style: none;
+    border-style: solid;
+    border-color: black;
+    border-radius: 10px;
+    font-style: bold;
+    color: black;
+}
+
+.nav-link.active {
+    font-size: large;
+    font-weight: 900;
+    font-style: bold;
+}
+
+.nav-item form > button {
+    background-color: rgb(228, 189, 18);
+    border: none;
+    list-style: none;
+    font-family: "Times New Roman";
+    font-size: large;
+    font-weight: 500;
+    color: black;
+}
+
+.nav-item form > button:hover {
+    list-style: none;
+    border-style: solid;
+    border-color: black;
+    border-radius: 10px;
+    font-style: bold;
+    color: black;
+}
+
+a.navbar-brand>img {
+    border-radius: 50%;
+    object-fit: cover;
+    background-color: dimgrey;
+    padding: 5px;
+}
+
+

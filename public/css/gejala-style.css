@@ -1,0 +1,27 @@
+section {
+    /* max-width: 600px; */
+    margin: 0 auto;
+    margin-bottom: 25px;
+    padding: 20px;
+    background-color: dimgray;
+    border-radius: 5px;
+    box-shadow: 0 2px 4px rgba(255,215,0, 0.75);
+}
+table {
+    max-width: 100%;
+    margin: 5px;
+}
+thead {
+    background-color: grey;
+}
+tbody > tr:nth-child(even) {
+    background-color: grey;
+}
+/* tbody>tr:nth-child(odd) {
+    background-color: darkslategrey;
+} */
+
+th,
+td {
+    color: white;
+}

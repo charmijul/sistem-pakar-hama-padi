@@ -1,0 +1,38 @@
+section {
+    min-width: 50%;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: dimgray;
+    border-radius: 5px;
+    box-shadow: 0 2px 4px rgba(228, 189, 18, 0.75);
+}
+
+form {
+    min-width: 100%;
+}
+
+.form-group {
+    margin-bottom: 20px;
+}
+.form-control {
+    width: 100%;
+    padding: 10px;
+    font-size: 16px;
+    border-radius: 5px;
+    border: 1px solid dimgrey;
+}
+
+.btn {
+    display: block;
+    width: 100%;
+    padding: 10px;
+    font-size: 16px;
+    border-radius: 5px;
+    border: none;
+    color: #fff;
+    background-color: darkgoldenrod;
+}
+
+.btn:hover {
+    background-color: gold;
+}

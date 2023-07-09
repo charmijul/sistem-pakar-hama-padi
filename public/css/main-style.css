@@ -1,0 +1,25 @@
+body {
+    display: flex;
+    flex-direction: column;
+    background-color: white;
+    min-width: 100vw;
+    min-height: 100vh;
+    margin: 0;
+    padding: 0;
+}
+main>div.container {
+    display: flex;
+    flex-direction: column;
+    color: white;
+    font-family: 'Times New Roman';
+    /* flex-grow: 1; */
+    background-color: dimgray;
+    min-height: 82vh;
+    justify-content: center;
+    align-items: center;
+}
+
+h2{
+    margin-top: 10px;
+    border-bottom: 1px solid #000;
+  }
